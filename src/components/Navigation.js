@@ -8,8 +8,6 @@ const Navigation = () => {
   const { isShowing, toggleIsShowing } = useContext(context);
   const scrollPosition = useScrollPosition();
 
-  console.log(scrollPosition);
-
   // join all classes together
   const classes = (...classes) => {
     return classes.filter(Boolean).join(" ");

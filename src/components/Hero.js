@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/hero-image.png";
+import image from "../assets/images/hero-image.png";
 import Button from "./Button";
 import { motion } from "framer-motion";
 
@@ -16,17 +16,6 @@ const Hero = () => {
                 <span className="font-bold text-3xl mt-3 text-gray-800 leading-5 block">
                   Legit Emmanuel
                 </span>
-                {/* <motion.div
-                  className="inline-block"
-                  animate={{
-                    translateY: [-10, 0],
-                    transition: {
-                      yoyo: Infinity,
-                    },
-                  }}
-                >
-                  
-                </motion.div> */}
               </h1>
               <h2 className="leading-7 text-lg font-medium mb-5 text-gray-400">
                 Professional{" "}
@@ -40,18 +29,13 @@ const Hero = () => {
               </span>
 
               <div className="grid grid-cols-2 justify-center items-center gap-5 text-center text-white ">
-                <a
-                  href=""
-                  className="bg-bright px-8 py-3 font-semibold rounded-full md:w-4/5 "
-                >
+                <Button className="bg-bright px-8 py-3 font-semibold rounded-full md:w-4/5 ">
                   Contact Me
-                </a>
-                <a
-                  href=""
-                  className=" bg-gray-800 px-8 py-3 font-semibold rounded-full md:w-4/5"
-                >
+                </Button>
+
+                <Button className=" bg-gray-800 px-8 py-3 font-semibold rounded-full md:w-4/5">
                   Learn More
-                </a>
+                </Button>
               </div>
               {/* <Button
                 className="bg-red-200 text-gray-700 rounded-lg p-2 mr-0 my-5 w-full tracking-wider font-muly hover:bg-red-300 md:w-52 md:p-4 hover:font-black md:transition-all duration-1000"

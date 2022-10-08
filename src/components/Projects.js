@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../images/balazs-ketyi-FeuEg-8XlA8-unsplash.jpg";
-import img2 from "../images/john-jennings-fg7J6NnebBc-unsplash.jpg";
-import img3 from "../images/krisztian-tabori-IyaNci0CyRk-unsplash.jpg";
+import img1 from "../assets/images/balazs-ketyi-FeuEg-8XlA8-unsplash.jpg";
+import img2 from "../assets/images/john-jennings-fg7J6NnebBc-unsplash.jpg";
+import img3 from "../assets/images/krisztian-tabori-IyaNci0CyRk-unsplash.jpg";
 import { motion } from "framer-motion";
 
 const Projects = () => {

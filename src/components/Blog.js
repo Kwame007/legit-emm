@@ -1,7 +1,7 @@
 import React from "react";
-import blogImg from "../images/news-1.jpeg";
-import blogImg1 from "../images/news-3.jpeg";
-import blogImg2 from "../images/news-2.jpeg";
+import blogImg from "../assets/images/news-1.jpeg";
+import blogImg1 from "../assets/images/news-3.jpeg";
+import blogImg2 from "../assets/images/news-2.jpeg";
 
 const Blog = () => {
   return (
